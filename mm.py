@@ -55,6 +55,6 @@ def download():
    if not os.path.exists(eachpic_name):    #同个美女保存在一个以美女编号为名的文件夹
      urllib.urlretrieve(eachpic,eachpic_name,None)
   print u'已成功获取',num,u'张图片保存于',pid,u'中,正在获取下一批,请耐心等待...'
-  os.chdir('E:\mm')#这个相当于返回上一个文件夹
+  os.chdir('Beauty')#这个相当于返回上一个文件夹
  print u'获取完毕!'
 download()
